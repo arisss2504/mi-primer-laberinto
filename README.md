@@ -19,7 +19,7 @@ The first scenario is this:
 
 Move the **pink ball** from the upper left corner to the **treasure chest** located in the lower right corner, avoiding the obstacles (black walls) along the way.
 
----
+
 
 ### ⚙️ Mechanics and Operation
 
@@ -37,7 +37,7 @@ Move the **pink ball** from the upper left corner to the **treasure chest** loca
 3. **Reset Button (`btnreset`):**
 * Allows you to restart the game at any time, returning the ball to its starting point.
 
----
+
 
 ### 🧱 Key Components in MIT App Inventor
 
