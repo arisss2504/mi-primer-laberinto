@@ -15,14 +15,6 @@ Hi! Today I’m going to explain how I made my first maze
 The first scenario is this:
 <img width="921" height="445" alt="image" src="https://github.com/user-attachments/assets/a4f2df87-b8f0-412a-974d-2378543bc30d" />
 
-## 🎮 Game: The Treasure Maze
-
-### 📝 General Description
-
-This project is a **2D interactive maze-style game** designed and developed in **MIT App Inventor**. The player must tilt their mobile device to move a ball through a maze to reach the final goal (a treasure chest).
-
----
-
 ### 🎯 Game Objective
 
 Move the **pink ball** from the upper left corner to the **treasure chest** located in the lower right corner, avoiding the obstacles (black walls) along the way.
