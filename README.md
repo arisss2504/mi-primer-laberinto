@@ -30,7 +30,7 @@ Move the **pink ball** from the upper left corner to the **treasure chest** loca
 
 
 2. **Collision Detection:**
-* **With walls (`bar_1` to `bar_6`):** If the ball touches a wall, it can bounce or restart from its starting position to make the journey more challenging.
+* **With walls (`bar_1` to `bar_7`):** If the ball touches a wall, it can bounce or restart from its starting position to make the journey more challenging.
 
 * **With the chest:** Upon reaching the goal, a notification (`Notifier1`) is activated, congratulating the player on winning.
 
@@ -45,7 +45,7 @@ Move the **pink ball** from the upper left corner to the **treasure chest** loca
 
 * **`Ball1`:** The main element of the player that moves across the screen.
 
-* * **`bar_1` to `bar_6` (Barriers/Walls):** Image sprites or lines that make up the maze circuit.
+* * **`bar_1` to `bar_7` (Barriers/Walls):** Image sprites or lines that make up the maze circuit.
 
 * **`AccelerometerSensor1` (Accelerometer Sensor):** Captures the device's tilt to assign speed and direction to `Ball1`.
 
