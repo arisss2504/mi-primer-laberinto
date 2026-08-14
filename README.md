@@ -5,4 +5,7 @@
 ¡¡ Welcome to my GitHub profile!!
 
 ---
-Hi! Today I'm going to explain how I made my first maze.
+Hi! Today I’m going to explain how I made my first maze
+¡¡ IN THREE DIFFERENT SCENARIOS !!
+---
+
