@@ -97,6 +97,53 @@ Move the **pink ball** (`Ball1`) from the top left corner to the goal represente
 
 ---
 
+THE THIRD SCENARIO IS THIS:
+<img width="921" height="434" alt="image" src="https://github.com/user-attachments/assets/a2e47113-ada9-498f-94ee-d387015b8b4b" />
+
+### 🎯 Game Objective
+
+Move the **pink ball** (`Ball1`) from the top left corner through the network of barriers to reach the **treasure chest** (`chest`) in the bottom right corner.
+
+## ⚙️ Mechanics and Operation of this Stage
+
+1. **Inertial Motion Control:**
+* The **`AccelerometerSensor1`** component reads the tilt of the mobile device in real time and moves the ball proportionally according to the phone's rotations.
+
+2. **Obstacle Design and Increased Complexity:**
+* **Grid Zone (Left):** This area features multiple overlapping horizontal and vertical barriers, creating a narrow passageway through which the player must maneuver with precision.
+
+* **Central Dividing Wall:** A long vertical line blocks direct passage to the center, forcing players to either go down or around the structure.
+
+* * **Right Section:** Stepped horizontal walls (`bar_6`, `bar_7`, etc.) that protect the descent to the treasure area.
+
+3. **Game Interactions:**
+* **Wall Collisions:** If the ball collides with the barriers (`bar_1`, `bar_2`, `bar_3`, `bar_4`, `bar_6`, `bar_7`), the ball bounces or restarts its trajectory according to the block programming.
+
+* **Victory:** Touching the `chest` activates the **`Notifier1`**, indicating that the maze has been completed.
+
+* **Reset:** The **`btnreset`** button resets the ball's position to the initial starting point.
+
+### 🧱 Stage-Specific Components
+
+* **`Canvas1`:** The canvas that houses and renders all graphic elements.
+
+* **`Ball1`:** The ball that acts as the playable character.
+
+* **Barriers (`bar_1` to `bar_7`):** Image sprites placed in strategic positions using the following graphic resources:
+* `Lineahor...al(1).jpg` (Horizontal lines)
+* `LineaVertical(1).jpg` (Vertical lines)
+
+* **`chest`:** A target element.
+
+* **`AccelerometerSensor1`:** Inertial sensor to capture physical movement.
+
+* **`Notifier1`:** Generator of victory notifications or messages.
+
+* **`btnreiniciar`:** Top button to restart the game.
+
+---
+
+
 
 
 
