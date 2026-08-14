@@ -54,3 +54,51 @@ Move the **pink ball** from the upper left corner to the **treasure chest** loca
 * **`Notifier1` (Notifier):** Displays on-screen alerts (for example: *"Congratulations, you won!"*).
 
 ---
+
+THE SECOND SCENARIO IS THIS:
+<img width="921" height="445" alt="image" src="https://github.com/user-attachments/assets/0b41da22-68c9-42ce-a4fd-899c7f2c2de5" />
+
+### 🎯 Game Objective
+
+Move the **pink ball** (`Ball1`) from the top left corner to the goal represented by the **treasure chest** (`chest`), navigating the new arrangement of vertical and horizontal barriers.
+
+### ⚙️ Mechanics and Operation of this Stage
+
+1. **Tilt Navigation:**
+* The **`AccelerometerSensor1`** sensor detects the angle and tilt of the smartphone on the $X$ and $Y$ axes, translating this into continuous movement of the ball.
+
+2. **New Route and Corridor Design:**
+* The wall structure creates a new route: it features a **central right horizontal barrier** (`bar_7`), stepped upper walls, and a cross intersection in the lower left area.
+
+* If the ball collides with any of the barriers (`bar_1`, `bar_2`, `bar_3`, `bar_6`, `bar_7`), the collision is handled (stopping the ball's movement, causing it to bounce, or returning the player to the starting point).
+
+3. **Victory and Reset Conditions:**
+* **Victory:** Upon contact between `Ball1` and `chest`, the **`Notifier1`** displays a congratulatory pop-up message.
+
+* **Reset:** The **`btnreset`** button located at the top allows you to reset the ball's coordinates to their initial $(x, y)$.
+
+### 🧱 Specific Stage Components
+
+* **`Canvas1`:** The interactive drawing canvas on which all game elements are positioned.
+
+* **`Ball1`:** The pink ball controlled by the user.
+
+* * **Maze Barriers (`bar_1` to `bar_7`):** Image sprites (`ImageSprite`) generated from the uploaded resources:
+* `Lineahor...al(1).jpg` (Horizontal Barrier)
+* `LineaVertical(1).jpg` (Vertical Barrier)
+
+* **`chest`:** Target object located in the lower right corner (`chest(1).jpg`).
+
+* **`AccelerometerSensor1`:** Sensor that reads the device's physical movement.
+
+* **`Notifier1`:** Invisible component responsible for sending on-screen notifications.
+
+* **`btnreiniciar`:** Button to restart the game.
+
+---
+
+
+
+
+
+
